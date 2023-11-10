@@ -18,9 +18,9 @@ function App(): JSX.Element {
 				</div>
 
 				<Routes>
-					<Route path="/" element={<Home />} />
-					<Route path="/about" element={<About />} />
-					<Route path="/learn" element={<LearnMore />} />
+					<Route path="/ChristmasSoireeWebsite/" element={<Home />} />
+					<Route path="/ChristmasSoireeWebsite/about" element={<About />} />
+					<Route path="/ChristmasSoireeWebsite/learn" element={<LearnMore />} />
 				</Routes>
 			</main>
 

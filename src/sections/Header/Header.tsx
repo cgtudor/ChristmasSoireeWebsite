@@ -14,9 +14,9 @@ const Header = () => {
 			</h1>
 
 			<div className="navbar d-[flex] ai-[center] @.navbar_a$fs-[1.4rem] @.navbar_a:hover$c-[#fff] @.navbar_a$c-[#B6B7B7] @.navbar_a$trs-[color_0.15s_ease-in-out] @.navbar_a$mx-[0.5rem] @.navbar_.active$c-[#00bff3] @.navbar_.active$pe-[none]">
-				<NavLink to="/">Home</NavLink>
-				<NavLink to="/about">About</NavLink>
-				<NavLink to="/learn">Learn More</NavLink>
+				<NavLink to="/ChristmasSoireeWebsite/">Home</NavLink>
+				<NavLink to="/ChristmasSoireeWebsite/about">About</NavLink>
+				<NavLink to="/ChristmasSoireeWebsite/learn">Learn More</NavLink>
 			</div>
 
 			<a
