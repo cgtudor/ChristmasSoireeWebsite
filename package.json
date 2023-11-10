@@ -1,5 +1,5 @@
 {
-	"name": "ChristmasSojourn",
+	"name": "ChristmasSoiree",
 	"private": true,
 	"version": "1.0.0",
 	"description": "Viact is a starter template for React TypeScript that uses Vitejs, which supports RTL for specific styles, proxy fetching API (to fix CORS errors) and a simple mock REST API server. Additionally, Is set up VScode, Storybook, ErrorBoundary, UnoCss (atomic CSS engine), Eslint, Prettier, and more.",
@@ -27,13 +27,13 @@
 		"build-storybook": "build-storybook"
 	},
 	"license": "MIT",
-	"homepage": "https://cgtudor.github.io/ChristmasSojournWebsite",
+	"homepage": "https://cgtudor.github.io/ChristmasSoireeWebsite",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/cgtudor/ChristmasSojournWebsite.git"
+		"url": "https://github.com/cgtudor/ChristmasSoireeWebsite.git"
 	},
 	"bugs": {
-		"url": "https://github.com/cgtudor/ChristmasSojournWebsite/issues"
+		"url": "https://github.com/cgtudor/ChristmasSoireeWebsite/issues"
 	},
 	"dependencies": {
 		"react": "^18.2.0",
