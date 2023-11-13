@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 
 import ViactImg from '~images/viact.png';
-import About from '~pages/About';
+import Guests from '~pages/Guests';
 import Home from '~pages/Home';
 import LearnMore from '~pages/LearnMore';
 import Footer from '~sections/Footer';
@@ -13,13 +13,9 @@ function App(): JSX.Element {
 			<Header />
 
 			<main className="py-[1.5rem]">
-				<div className="pb-[3.5rem]">
-					<img src={ViactImg} alt="viact logo" className="viact-logo d-[block] mw-[23vw] min-w-[300px] h-[auto] m-[auto]" />
-				</div>
-
 				<Routes>
 					<Route path="/ChristmasSoireeWebsite/" element={<Home />} />
-					<Route path="/ChristmasSoireeWebsite/about" element={<About />} />
+					<Route path="/ChristmasSoireeWebsite/guests" element={<Guests />} />
 					<Route path="/ChristmasSoireeWebsite/learn" element={<LearnMore />} />
 				</Routes>
 			</main>
