@@ -1,7 +1,7 @@
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 
-import GenevievePortrait from './GenevievePortrait.png';
+import GenevievePortrait from './Portraits/GenevievePortrait.png';
 
 const Genevieve = () => {
 	return (
