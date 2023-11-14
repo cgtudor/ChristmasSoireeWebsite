@@ -1,9 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 
-import ViactImg from '~images/viact.png';
 import Guests from '~pages/Guests';
 import Home from '~pages/Home';
-import LearnMore from '~pages/LearnMore';
 import Footer from '~sections/Footer';
 import Header from '~sections/Header';
 
@@ -16,7 +14,6 @@ function App(): JSX.Element {
 				<Routes>
 					<Route path="/ChristmasSoireeWebsite/" element={<Home />} />
 					<Route path="/ChristmasSoireeWebsite/guests" element={<Guests />} />
-					<Route path="/ChristmasSoireeWebsite/learn" element={<LearnMore />} />
 				</Routes>
 			</main>
 
