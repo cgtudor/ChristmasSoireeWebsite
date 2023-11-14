@@ -9,7 +9,7 @@ const Header = () => {
 			<h1 className="c-[#ffffffcc] fw-[500] fs-[1.5rem]">
 				<Link to="/" className="d-[flex] ai-[center] c-[#fff]">
 					<img src={ViactImg} alt="Viact Logo" className="w-[30px] mr-[0.5rem]" />
-					Viact
+					Christmas Soirée
 				</Link>
 			</h1>
 
