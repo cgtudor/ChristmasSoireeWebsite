@@ -1,14 +1,14 @@
 import { Link, NavLink } from 'react-router-dom';
 
+import Feather from '~images/feather.png';
 import { ReactComponent as GithubIcon } from '~images/github.svg';
-import ViactImg from '~images/viact.png';
 
 const Header = () => {
 	return (
 		<header className="d-[flex] fld-[row] ai-[center] js-[space-between] pb-[0.5rem] mb-[1rem] bdb-[1px_dotted_#ffffff1a]">
 			<h1 className="c-[#ffffffcc] fw-[500] fs-[1.5rem]">
-				<Link to="/" className="d-[flex] ai-[center] c-[#fff]">
-					<img src={ViactImg} alt="Viact Logo" className="w-[30px] mr-[0.5rem]" />
+				<Link to="/ChristmasSoireeWebsite/" className="d-[flex] ai-[center] c-[#B6B7B7]">
+					<img src={Feather} alt="Viact Logo" className="w-[30px] mr-[0.5rem]" />
 					Christmas Soirée
 				</Link>
 			</h1>
