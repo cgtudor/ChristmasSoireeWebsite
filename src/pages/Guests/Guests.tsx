@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import { WidthFull } from '@mui/icons-material';
 import Grid from '@mui/material/Grid';
+import Paper from '@mui/material/Paper';
 import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
 
@@ -62,7 +63,11 @@ const Guests = () => {
 				<Grid item width="50%" margin={'1rem'}>
 					<TextField fullWidth label="Who are you?" variant="standard" value={selectedGuest} onChange={handleInputChange} />
 				</Grid>
-				<Grid item>{guestComponents[selectedGuest]}</Grid>
+				<Grid item>
+					<Paper elevation={10} sx={{ p: 2, backgroundColor: '#8dbb8d' }}>
+						{guestComponents[selectedGuest]}
+					</Paper>
+				</Grid>
 			</Grid>
 		</>
 	);
