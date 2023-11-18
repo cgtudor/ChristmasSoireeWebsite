@@ -10,9 +10,9 @@
 	}
 }
 
-@keyframes viact {
-	40% {
-		transform: translateY(25px) rotate(-5deg);
+@keyframes spin {
+	100% {
+		transform: translateY(25px);
 	}
 }
 
@@ -29,14 +29,39 @@
 }
 
 body {
-	background-color: #111111ed;
+	background-color: #5c7d4aed;
 	font-size: 1rem;
 	font-family: Roboto, Arial, Helvetica, sans-serif;
-	background-image: radial-gradient(hsla(0, 0%, 84.3%, 0.2) 1px, transparent 0),
-		radial-gradient(hsla(0, 0%, 84.3%, 0.1) 1px, transparent 0);
-	background-size: 60px 60px;
-	background-position: 0 0, 30px 30px;
-	animation: body 5s linear infinite;
+	//background-image: url('src/assets/images/Table.svg');
+	background-size: 50em 50em;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.container {
+	position: relative;
+	width: 700px;
+	height: 400px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.table {
+	position: relative;
+}
+
+.letter {
+	position: absolute;
+	bottom: 30%;
+	right: 5%;
+	transform: rotate3d(2, -1, -1, -0.2turn) scale(0.12);
+}
+
+.letter:hover {
+	animation: spin 0.5s linear;
+	animation-fill-mode: both;
 }
 
 button {
@@ -61,6 +86,9 @@ a {
 	fill: currentColor;
 }
 
-.viact-logo {
-	animation: viact 10s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+.audio-player {
+	width: 100%;
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
 }
