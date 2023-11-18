@@ -6,9 +6,9 @@ import Feather from '~images/Logo.png';
 
 const Header = () => {
 	return (
-		//<AppBar position="static" sx={{ backgroundColor: 'transparent' }}>
 		<Toolbar
 			sx={{
+				'display': 'flex',
 				'position': 'relative',
 				'&::after': {
 					content: '""',
@@ -21,15 +21,17 @@ const Header = () => {
 				},
 			}}
 		>
-			<Link component={RouterLink} to="/ChristmasSoireeWebsite/" color="inherit" underline="none">
-				<Box sx={{ display: 'flex', alignItems: 'center' }}>
-					<img src={Feather} alt="Logo" style={{ width: '100px', marginRight: '0.5rem' }} />
-					<Typography variant="h6" component="div">
-						Christmas Soirée
-					</Typography>
-				</Box>
-			</Link>
-			<Box sx={{ display: 'flex', justifyContent: 'center', flexGrow: 1 }}>
+			<Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+				<Link component={RouterLink} to="/ChristmasSoireeWebsite/" color="inherit" underline="none">
+					<Box sx={{ display: 'flex', alignItems: 'center' }}>
+						<img src={Feather} alt="Logo" style={{ width: '100px', marginRight: '0.5rem' }} />
+						<Typography variant="h6" component="div">
+							Christmas Soirée
+						</Typography>
+					</Box>
+				</Link>
+			</Box>
+			<Box sx={{ display: 'flex', justifyContent: 'center', flex: 1, position: 'absolute', left: '50%', transform: 'translateX(-50%)' }}>
 				<Link component={RouterLink} to="/ChristmasSoireeWebsite/" color="inherit" underline="none" sx={{ marginLeft: '1rem' }}>
 					Home
 				</Link>
@@ -38,7 +40,6 @@ const Header = () => {
 				</Link>
 			</Box>
 		</Toolbar>
-		//</AppBar>
 	);
 };
 
