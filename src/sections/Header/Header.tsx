@@ -1,32 +1,38 @@
-import { Link, NavLink } from 'react-router-dom';
+import { Link as RouterLink } from 'react-router-dom';
+
+import GitHubIcon from '@mui/icons-material/GitHub';
+import { AppBar, Box, IconButton, Link, Toolbar, Typography } from '@mui/material';
 
 import Feather from '~images/Logo.png';
-import { ReactComponent as GithubIcon } from '~images/github.svg';
 
 const Header = () => {
 	return (
-		<header className="d-[flex] fld-[row] ai-[center] js-[space-between] pb-[0.5rem] mb-[1rem] bdb-[1px_dotted_#ffffff1a]">
-			<h1 className="c-[#ffffffcc] fw-[500] fs-[1.5rem]">
-				<Link to="/ChristmasSoireeWebsite/" className="d-[flex] ai-[center] c-[#B6B7B7]">
-					<img src={Feather} alt="Logo" className="w-[100px] mr-[0.5rem]" />
-					Christmas Soirée
+		<AppBar position="static" color="primary">
+			<Toolbar>
+				<Link component={RouterLink} to="/ChristmasSoireeWebsite/" color="inherit" underline="none">
+					<Box sx={{ display: 'flex', alignItems: 'center' }}>
+						<img src={Feather} alt="Logo" style={{ width: '100px', marginRight: '0.5rem' }} />
+						<Typography variant="h6" component="div">
+							Christmas Soirée
+						</Typography>
+					</Box>
 				</Link>
-			</h1>
-
-			<div className="navbar d-[flex] ai-[center] @.navbar_a$fs-[1.4rem] @.navbar_a:hover$c-[#fff] @.navbar_a$c-[#B6B7B7] @.navbar_a$trs-[color_0.15s_ease-in-out] @.navbar_a$mx-[0.5rem] @.navbar_.active$c-[#cb9b51] @.navbar_.active$pe-[none]">
-				<NavLink to="/ChristmasSoireeWebsite/">Home</NavLink>
-				<NavLink to="/ChristmasSoireeWebsite/guests">Guests</NavLink>
-			</div>
-
-			<a
-				href="https://github.com/MR-Mostafa/Viact"
-				target="_blank"
-				rel="noopener noreferrer"
-				className="github fs-[2rem] h-[1em] @.github:hover_svg$fill-[#fff]"
-			>
-				<GithubIcon className="icon fill-[#B6B7B7] trs-[fill_0.15s_ease-in-out]" />
-			</a>
-		</header>
+				<Box sx={{ display: 'flex', justifyContent: 'center', flexGrow: 1 }}>
+					<Link component={RouterLink} to="/ChristmasSoireeWebsite/" color="inherit" underline="none" sx={{ marginLeft: '1rem' }}>
+						Home
+					</Link>
+					<Link
+						component={RouterLink}
+						to="/ChristmasSoireeWebsite/guests"
+						color="inherit"
+						underline="none"
+						sx={{ marginLeft: '1rem' }}
+					>
+						Guests
+					</Link>
+				</Box>
+			</Toolbar>
+		</AppBar>
 	);
 };
 
