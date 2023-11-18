@@ -10,7 +10,7 @@
 	}
 }
 
-@keyframes viact {
+@keyframes spin {
 	100% {
 		transform: translateY(25px);
 	}
@@ -40,33 +40,27 @@ body {
 
 .container {
 	position: relative;
-	width: 100%;
+	width: 700px;
 	height: 400px;
 	margin: auto;
 	display: flex;
 	justify-content: center;
+	align-items: center;
 }
 
-@media (max-width: 768px) {
-	body {
-		width: 100%;
-	}
+.table {
+	position: relative;
 }
 
 .letter {
 	position: absolute;
-	z-index: 2;
-	bottom: 38%;
-	left: 20%;
-	transform: rotate3d(2, -1, -1, -0.2turn) scale(0.15);
+	bottom: 30%;
+	right: 5%;
+	transform: rotate3d(2, -1, -1, -0.2turn) scale(0.12);
 }
 
-.table {
-	position: absolute;
-	z-index: 1;
-}
 .letter:hover {
-	animation: viact 1s linear;
+	animation: spin 0.5s linear;
 	animation-fill-mode: both;
 }
 
@@ -91,14 +85,6 @@ a {
 	stroke: currentColor;
 	fill: currentColor;
 }
-
-// .letter {
-// 	transform: rotate3d(2, -1, -1, -0.2turn);
-// }
-// .letter:hover {
-// 	animation: viact 1s linear;
-// 	animation-fill-mode: both;
-// }
 
 .audio-player {
 	width: 100%;
