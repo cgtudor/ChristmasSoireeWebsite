@@ -3,6 +3,7 @@ import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 
 import { CharacterPortrait } from '~src/components/CharacterPortrait';
+import Title from '~src/components/Title';
 
 const Dante = () => {
 	return (
@@ -10,7 +11,7 @@ const Dante = () => {
 			<CharacterPortrait character="Dante" />
 			<Grid item xs={12} sm={8}>
 				<Box p={2}>
-					<Typography variant="h3">Dante Bellucci</Typography>
+					<Title text="Dante Bellucci" />
 					<Typography variant="subtitle2">
 						Dante Bellucci is a man of questionable profession and morals. Being as charitable as possible, he is a loan shark. While
 						his business may seem legal on the surface, he is no stranger to the land of crime. He will use any means necessary to get

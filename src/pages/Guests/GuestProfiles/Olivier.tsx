@@ -1,7 +1,7 @@
-import Typography from '@mui/material/Typography';
+import Title from '~src/components/Title';
 
 const Olivier = () => {
-	return <Typography variant="h1">Olivier</Typography>;
+	return <Title text="Olivier de la Croix" />;
 };
 
 export default Olivier;

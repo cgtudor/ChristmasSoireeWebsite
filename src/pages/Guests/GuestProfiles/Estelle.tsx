@@ -1,7 +1,7 @@
-import Typography from '@mui/material/Typography';
+import Title from '~src/components/Title';
 
 const Estelle = () => {
-	return <Typography variant="h1">Estelle</Typography>;
+	return <Title text="Estelle de la Croix" />;
 };
 
 export default Estelle;

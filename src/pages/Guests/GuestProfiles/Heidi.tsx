@@ -3,6 +3,7 @@ import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 
 import { CharacterPortrait } from '~src/components/CharacterPortrait';
+import Title from '~src/components/Title';
 
 const Heidi = () => {
 	return (
@@ -10,7 +11,7 @@ const Heidi = () => {
 			<CharacterPortrait character="Heidi" />
 			<Grid item xs={12} sm={8}>
 				<Box p={2}>
-					<Typography variant="h3">Heidi Rosengart</Typography>
+					<Title text="Heidi Rosengart" />
 					<Typography variant="subtitle2">
 						Heidi Rosengart is a musician from Germany. She is a renowned violinist who has performed in many countries around the
 						world. She's caught the favour of the Croix family who has come to love her performances. Whilst she'd generally be

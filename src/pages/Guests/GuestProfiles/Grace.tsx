@@ -1,7 +1,7 @@
-import Typography from '@mui/material/Typography';
+import Title from '~src/components/Title';
 
 const Grace = () => {
-	return <Typography variant="h1">Grace</Typography>;
+	return <Title text="Grace" />;
 };
 
 export default Grace;

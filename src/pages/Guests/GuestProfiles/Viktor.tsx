@@ -3,6 +3,7 @@ import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 
 import { CharacterPortrait } from '~src/components/CharacterPortrait';
+import Title from '~src/components/Title';
 
 const Viktor = () => {
 	return (
@@ -10,7 +11,7 @@ const Viktor = () => {
 			<CharacterPortrait character="Viktor" />
 			<Grid item xs={12} sm={8}>
 				<Box p={2}>
-					<Typography variant="h3">Viktor Koslov</Typography>
+					<Title text="Viktor Koslov" />
 					<Typography variant="subtitle2">
 						Viktor Kozlov is a physicist from the great mother nation. Having published many revolutionary works in the world of
 						physics, he is widely renowned for his logical mind and his ability to solve any problem. He came to know the Croix family

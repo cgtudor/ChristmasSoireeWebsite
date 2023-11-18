@@ -1,7 +1,7 @@
-import Typography from '@mui/material/Typography';
+import Title from '~src/components/Title';
 
 const Finn = () => {
-	return <Typography variant="h1">Finn</Typography>;
+	return <Title text="Finn" />;
 };
 
 export default Finn;

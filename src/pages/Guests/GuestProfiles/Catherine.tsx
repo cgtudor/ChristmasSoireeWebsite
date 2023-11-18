@@ -1,7 +1,7 @@
-import Typography from '@mui/material/Typography';
+import Title from '~src/components/Title';
 
 const Catherine = () => {
-	return <Typography variant="h1">Catherine</Typography>;
+	return <Title text="Catherine" />;
 };
 
 export default Catherine;
