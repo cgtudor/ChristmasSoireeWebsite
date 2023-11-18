@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 
-import { WidthFull } from '@mui/icons-material';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import TextField from '@mui/material/TextField';
@@ -54,7 +53,11 @@ const Guests = () => {
 		'Heidi': <Heidi />,
 		'Olivier': <Olivier />,
 		'Viktor': <Viktor />,
-		'': <Typography variant="body1">Placeholder</Typography>,
+		'': (
+			<Typography variant="body1" className="gold-text fs-[3vh]">
+				Whisper a name, unveil the hidden tale.
+			</Typography>
+		),
 	};
 
 	return (

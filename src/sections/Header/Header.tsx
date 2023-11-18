@@ -13,7 +13,7 @@ const Header = () => {
 				</Link>
 			</h1>
 
-			<div className="navbar d-[flex] ai-[center] @.navbar_a$fs-[1.4rem] @.navbar_a:hover$c-[#fff] @.navbar_a$c-[#B6B7B7] @.navbar_a$trs-[color_0.15s_ease-in-out] @.navbar_a$mx-[0.5rem] @.navbar_.active$c-[#00bff3] @.navbar_.active$pe-[none]">
+			<div className="navbar d-[flex] ai-[center] @.navbar_a$fs-[1.4rem] @.navbar_a:hover$c-[#fff] @.navbar_a$c-[#B6B7B7] @.navbar_a$trs-[color_0.15s_ease-in-out] @.navbar_a$mx-[0.5rem] @.navbar_.active$c-[#cb9b51] @.navbar_.active$pe-[none]">
 				<NavLink to="/ChristmasSoireeWebsite/">Home</NavLink>
 				<NavLink to="/ChristmasSoireeWebsite/guests">Guests</NavLink>
 			</div>
