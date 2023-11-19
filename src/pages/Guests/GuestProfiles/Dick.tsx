@@ -12,7 +12,7 @@ const Dick = () => {
 			<Grid item xs={12} sm={8}>
 				<Box p={2}>
 					<Title text="Richard O'Connell" />
-					<Typography variant="subtitle2">
+					<Typography variant="subtitle2" color={'#f5f5f5'}>
 						Richard O'Connell is a detective of questionable origins. Although he is known for his case solving skills, he is also
 						renowned for his drinking tendencies. A sort of drunken master of detectives he's made a name for himself as a private
 						investigator and he came to know the Croix siblings from a case of earring theft he's solved for Estelle during the last

@@ -12,7 +12,7 @@ const Genevieve = () => {
 			<Grid item xs={12} sm={8}>
 				<Box p={2}>
 					<Title text="Genevieve Auclair" />
-					<Typography variant="subtitle2">
+					<Typography variant="subtitle2" color={'#f5f5f5'}>
 						Genevieve Auclair is a distinguished lady from Paris. Old friend of the family, she has always brought a sense of elegance
 						to any room she stepped in, turning the eyes of men and women alike.
 					</Typography>

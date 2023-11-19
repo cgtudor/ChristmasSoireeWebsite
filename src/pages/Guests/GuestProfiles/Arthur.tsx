@@ -12,7 +12,7 @@ const Arthur = () => {
 			<Grid item xs={12} sm={8}>
 				<Box p={2}>
 					<Title text="Arthur McDonald" />
-					<Typography variant="body1">
+					<Typography variant="body1" color={'#f5f5f5'}>
 						Arthur McDonald is a man with little known history. For those knowledgeable enough, he is a hit-man for hire. What he did,
 						who he was or why he's doing it is of little importance, but he's completed a job for the Croix family before. He was
 						employed to [REDACTED] by the father. A splendid job. The invitation to this Christmas party was a surprise, but he's
