@@ -5,6 +5,8 @@ import Home from '~pages/Home';
 import Footer from '~sections/Footer';
 import Header from '~sections/Header';
 
+import Secrets from './pages/Secrets';
+
 function App(): JSX.Element {
 	return (
 		<div className="maw-[1200px] p-[1rem] mx-[auto] min-h[100vh] d-[flex] fld-[column]">
@@ -14,6 +16,7 @@ function App(): JSX.Element {
 				<Routes>
 					<Route path="/ChristmasSoireeWebsite/" element={<Home />} />
 					<Route path="/ChristmasSoireeWebsite/guests" element={<Guests />} />
+					<Route path="/ChristmasSoireeWebsite/secrets" element={<Secrets />} />
 				</Routes>
 			</main>
 

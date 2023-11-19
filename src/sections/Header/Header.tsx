@@ -79,6 +79,25 @@ const Header = () => {
 				>
 					Guests
 				</Link>
+				<Link
+					component={RouterLink}
+					to="/ChristmasSoireeWebsite/secrets"
+					color="inherit"
+					underline="none"
+					sx={{
+						'fontFamily': 'Great Vibes, cursive',
+						'color': '#f5f5f5',
+						'textShadow': '2px 2px 4px rgba(0, 0, 0, 0.5)',
+						'marginLeft': '1rem',
+						'fontSize': '1.2rem',
+						'padding': '0.5rem',
+						'&:hover': {
+							color: '#FFD700',
+						},
+					}}
+				>
+					Secrets
+				</Link>
 			</Box>
 		</Toolbar>
 	);
