@@ -13,9 +13,9 @@ const Header = () => {
 				'&::after': {
 					content: '""',
 					position: 'absolute',
-					bottom: 0,
-					left: '12.5%',
-					width: '75%',
+					bottom: 15,
+					left: '10%',
+					width: '80%',
 					height: '1px',
 					backgroundColor: 'black',
 				},
@@ -25,17 +25,52 @@ const Header = () => {
 				<Link component={RouterLink} to="/ChristmasSoireeWebsite/" color="inherit" underline="none">
 					<Box sx={{ display: 'flex', alignItems: 'center' }}>
 						<img src={Feather} alt="Logo" style={{ width: '100px', marginRight: '0.5rem' }} />
-						<Typography variant="h6" component="div">
+						<Typography
+							variant="h6"
+							component="div"
+							sx={{
+								fontFamily: 'Great Vibes, cursive',
+								color: '#f5f5f5',
+								textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
+								fontSize: '1.5rem',
+							}}
+						>
 							Christmas Soirée
 						</Typography>
 					</Box>
 				</Link>
 			</Box>
-			<Box sx={{ display: 'flex', justifyContent: 'center', flex: 1, position: 'absolute', left: '50%', transform: 'translateX(-50%)' }}>
-				<Link component={RouterLink} to="/ChristmasSoireeWebsite/" color="inherit" underline="none" sx={{ marginLeft: '1rem' }}>
+			<Box sx={{ display: 'flex', justifyContent: 'center', position: 'absolute', left: '50%', transform: 'translateX(-50%)' }}>
+				<Link
+					component={RouterLink}
+					to="/ChristmasSoireeWebsite/"
+					color="inherit"
+					underline="none"
+					sx={{
+						'marginLeft': '1rem',
+						'fontSize': '1.2rem',
+						'padding': '0.5rem',
+						'&:hover': {
+							color: 'primary.main',
+						},
+					}}
+				>
 					Home
 				</Link>
-				<Link component={RouterLink} to="/ChristmasSoireeWebsite/guests" color="inherit" underline="none" sx={{ marginLeft: '1rem' }}>
+				<Link
+					component={RouterLink}
+					to="/ChristmasSoireeWebsite/guests"
+					color="inherit"
+					underline="none"
+					sx={{
+						'marginLeft': '1rem',
+						'fontSize': '1.2rem',
+						'padding': '0.5rem',
+						'&:hover': {
+							color: 'primary.main',
+						},
+					}}
+				>
 					Guests
 				</Link>
 			</Box>
