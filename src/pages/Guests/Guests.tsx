@@ -54,7 +54,13 @@ const Guests = () => {
 		'Olivier': <Olivier />,
 		'Viktor': <Viktor />,
 		'': (
-			<Typography variant="body1" className="gold-text fs-[3vh]">
+			<Typography
+				variant="body1"
+				className="gold-text"
+				fontFamily={'Great Vibes, cursive'}
+				fontSize={'4vh'}
+				sx={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}
+			>
 				Whisper a name, unveil the hidden tale.
 			</Typography>
 		),
