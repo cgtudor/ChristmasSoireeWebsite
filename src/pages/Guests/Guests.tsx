@@ -70,11 +70,24 @@ const Guests = () => {
 		<>
 			<Grid container direction="column" alignItems={'center'}>
 				<Grid item width="50%" margin={'1rem'}>
-					<TextField fullWidth label="Who are you?" variant="standard" value={selectedGuest} onChange={handleInputChange} />
+					<TextField
+						fullWidth
+						label="Who are you?"
+						variant="standard"
+						value={selectedGuest}
+						onChange={handleInputChange}
+						sx={{
+							'& .MuiInputBase-input': {
+								// Target the input element
+								color: '#f5f5f5',
+								textShadow: '1px 1px 2px rgba(0, 0, 0, 0.5)',
+							},
+						}}
+					/>
 				</Grid>
 				<Grid item>
 					<Paper elevation={10} sx={{ p: 2, backgroundColor: '#8dbb8d' }}>
-						{guestComponents[selectedGuest]}
+						{guestComponents[selectedGuest] ? guestComponents[selectedGuest] : guestComponents['']}
 					</Paper>
 				</Grid>
 			</Grid>
