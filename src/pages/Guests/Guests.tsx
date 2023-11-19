@@ -86,7 +86,7 @@ const Guests = () => {
 					/>
 				</Grid>
 				<Grid item>
-					<Paper elevation={10} sx={{ p: 2, backgroundColor: '#8dbb8d' }}>
+					<Paper elevation={10} sx={{ p: 2, backgroundColor: '#474747' }}>
 						{guestComponents[selectedGuest] ? guestComponents[selectedGuest] : guestComponents['']}
 					</Paper>
 				</Grid>

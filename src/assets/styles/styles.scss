@@ -14,7 +14,7 @@
 
 @keyframes spin {
 	100% {
-		transform: translateY(25px);
+		transform: translateY(25px) translate(2%);
 	}
 }
 
@@ -31,7 +31,7 @@
 }
 
 body {
-	background-color: #5c7d4aed;
+	background-color: #1e1e1eed;
 	font-size: 1rem;
 	font-family: Roboto, Arial, Helvetica, sans-serif;
 	//background-image: url('src/assets/images/Table.svg');
@@ -51,19 +51,29 @@ body {
 }
 
 .table {
-	position: relative;
+	position: absolute;
 	top: 30%;
+	z-index: 1;
+	transform: scale(0.8);
+}
+
+.frame {
+	position: absolute;
+	top: 10%;
+	z-index: 0;
+	transform: scale(1.1);
 }
 
 .letter {
 	position: absolute;
 	bottom: 3%;
-	right: 5%;
-	transform: rotate3d(2, -1, -1, -0.2turn) scale(0.12);
+	right: 2%;
+	transform: rotate3d(2, -1, -1, -0.2turn) scale(0.1);
+	z-index: 2;
 }
 
 .letter:hover {
-	animation: spin 0.5s linear;
+	animation: spin 0.8s linear;
 	animation-fill-mode: both;
 }
 
@@ -104,7 +114,7 @@ a {
 	background-clip: text;
 	color: transparent;
 	-webkit-background-clip: text;
-	animation: 40s linear 0s infinite move;
+	animation: 40s linear 1s infinite move;
 }
 
 input[type='text'] {
