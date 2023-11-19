@@ -34,7 +34,6 @@ body {
 	background-color: #1e1e1eed;
 	font-size: 1rem;
 	font-family: Roboto, Arial, Helvetica, sans-serif;
-	//background-image: url('src/assets/images/Table.svg');
 	background-size: 50em 50em;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -57,6 +56,13 @@ body {
 	transform: scale(0.8);
 }
 
+.milk,
+.cookies,
+.letter {
+	position: absolute;
+	z-index: 2;
+}
+
 .frame {
 	position: absolute;
 	top: 10%;
@@ -69,7 +75,11 @@ body {
 	bottom: 3%;
 	right: 2%;
 	transform: rotate3d(2, -1, -1, -0.2turn) scale(0.1);
-	z-index: 2;
+}
+
+.cookies:hover,
+.milk:hover {
+	animation: shake 0.4s linear;
 }
 
 .letter:hover {
@@ -127,5 +137,23 @@ input[type='text'] {
 	}
 	to {
 		background-position: 1000px;
+	}
+}
+
+@keyframes shake {
+	0% {
+		transform: rotate(0deg);
+	}
+	25% {
+		transform: rotate(5deg);
+	}
+	50% {
+		transform: rotate(0eg);
+	}
+	75% {
+		transform: rotate(-5deg);
+	}
+	100% {
+		transform: rotate(0deg);
 	}
 }
