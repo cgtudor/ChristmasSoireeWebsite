@@ -1,4 +1,4 @@
-import FrameImg from '~images/Frame.png';
+import FrameImg from '~images/Frame.svg';
 import TableImg from '~images/Table.svg';
 import LetterImg from '~images/ar.png';
 
