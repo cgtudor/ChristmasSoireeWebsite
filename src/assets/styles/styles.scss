@@ -14,7 +14,7 @@
 
 @keyframes spin {
 	100% {
-		transform: translateY(25px) translate(2%);
+		transform: translateY(25px) translate(5%);
 	}
 }
 
@@ -72,8 +72,6 @@ body {
 
 .letter {
 	position: absolute;
-	bottom: 3%;
-	right: 2%;
 	transform: rotate3d(2, -1, -1, -0.2turn) scale(0.1);
 }
 

@@ -1,20 +1,29 @@
+import Grid from '@mui/material/Grid';
+
 import CookiesImg from '~images/Cookies.svg';
 import FrameImg from '~images/Frame.svg';
 import MilkGlassImg from '~images/Milk.svg';
 import TableImg from '~images/Table.svg';
 import LetterImg from '~images/ar.png';
 
+const imageData = [
+	{ src: TableImg, alt: 'table', className: 'table w-[500px]' },
+	{ src: MilkGlassImg, alt: 'milk', className: 'milk l-[50%] w-[3em]' },
+	{ src: CookiesImg, alt: 'cookies', className: 'cookies l-[55%] w-[3em]' },
+	{ src: LetterImg, alt: 'letter front', className: 'letter b-[3%] r-[5%] w-[700px]' },
+	{ src: FrameImg, alt: 'frame', className: 'frame w-[500px]' },
+];
+
 const Home = () => {
 	return (
 		<div>
-			<div className="container pb-[3.5rem]">
-				<img src={TableImg} alt="table" className="table w-[500px]" />
-				<img src={MilkGlassImg} alt="milk" className="milk l-[50%] w-[3em]" />
-				<img src={CookiesImg} alt="cookies" className="cookies l-[55%] w-[3em]" />
-				<img src={LetterImg} alt="letter front" className="letter w-[700px]" />
-				<img src={FrameImg} alt="frame" className="frame w-[500px]" />
-				<h1 style={{ fontFamily: 'Great Vibes, cursive', color: '#f4f1c3', position: 'relative', top: 250 }}>Merry Christmas!</h1>
-			</div>
+			<Grid item>
+				<div className="container pb-[3.5rem]">
+					{imageData.map((image, index) => (
+						<img key={index} src={image.src} alt={image.alt} className={image.className} />
+					))}
+				</div>
+			</Grid>
 		</div>
 	);
 };
