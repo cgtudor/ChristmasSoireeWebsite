@@ -20,7 +20,7 @@ export const secrets: Record<string, string> = {
 	TooGlamToGiveADamnFirstQuest:
 		'Get the hosts (or preferable other guests) to refill your glass five times. The glass must not be empty when you ask for a refill. You must not ask for a refill more than twice per guest.',
 	TooGlamToGiveADamnSecondQuest:
-		'Make a loud toast to the hosts, all the guests (by name for all of them), your mother, your sister and your dog. You must not mention your father. You must not let anyone interrupt you. The toas has to be at least 30 seconds long.',
+		'Make a loud toast to the hosts, all the guests (by name for all of them), your mother, your sister and your dog. You must not mention your father. You must not let anyone interrupt you. The toast has to be at least 30 seconds long.',
 	TooGlamToGiveADamnDickInfo:
 		'You know Richard, of course. You know everyone after all. He is a detective with a drinking problem. You have no idea how he ever solves any cases, but you know last party he brought a date called Nora. You have noticed him getting flirty with other guests, and when you confronted him about it you found out that he was cheating on Nora. Another one for the blackmail pile.',
 	ICanDoAllThisThroughHimWhoGivesMeStrengthFirstQuest:
@@ -41,7 +41,8 @@ export const secrets: Record<string, string> = {
 		'You know Dick. Drunken master detective. Somehow solved some unsolveable cases so you have been eyeing him for some time to get a scoop. Sadly it seemed that since the last Christmas party he started drinking even more, and his case solving abilities diminished. No longer a scoop.',
 	AllEyesOnMeFirstQuest:
 		'Pretend you are actually a sister of the hosts (half sister is fine). The hosts will not corroborate or go against your story. Fool half of the guests or more.',
-	AllEyesOnMeSecondQuest: "Whenever something 'outrageous' happens, fake faint. If somebody catches you, thank them with an autograph.",
+	AllEyesOnMeSecondQuest:
+		'Whenever something disgraceful or scandalous happens, fake faint. If somebody catches you, thank them with an autograph.',
 };
 
 export const secretsTitles: Record<string, string> = {
