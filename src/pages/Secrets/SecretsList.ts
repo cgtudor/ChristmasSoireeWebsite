@@ -43,6 +43,8 @@ export const secrets: Record<string, string> = {
 		'Pretend you are actually a sister of the hosts (half sister is fine). The hosts will not corroborate or go against your story. Fool half of the guests or more.',
 	AllEyesOnMeSecondQuest:
 		'Whenever something disgraceful or scandalous happens, fake faint. If somebody catches you, thank them with an autograph.',
+	AllEyesOnMeArthurInfo:
+		'You know Arthur. Perhaps even a bit too well. He is actually a hitman for hire and you have employed him once before to rid yourself of some competition for a big role. By pure chance, you even found out his real name during that: Ivar Zlavovikov. You are meant to keep all of this a secret, but God knows that your lips can be loose at times.',
 };
 
 export const secretsTitles: Record<string, string> = {
@@ -68,4 +70,5 @@ export const secretsTitles: Record<string, string> = {
 	ThePressIsFreeButLivingIsNotDickInfo: 'The drunken master',
 	AllEyesOnMeFirstQuest: 'Method acting',
 	AllEyesOnMeSecondQuest: 'Dedication to the craft',
+	AllEyesOnMeArthurInfo: 'Whatever it takes',
 };
