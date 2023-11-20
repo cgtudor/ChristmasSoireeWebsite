@@ -7,7 +7,7 @@ import Typography from '@mui/material/Typography';
 
 import Secret from '~src/components/Secret';
 
-import { secrets } from './SecretsList';
+import { secrets, secretsTitles } from './SecretsList';
 
 type GuestPasswords =
 	| 'TheUnseenBlade'
@@ -38,7 +38,7 @@ const Secrets = () => {
 	];
 
 	const secretsCount = password && Object.keys(secrets).filter((key) => key.startsWith(password)).length;
-	const gridColumns = secretsCount;
+	const gridColumns = secretsCount && secretsCount <= 3 ? secretsCount : 3;
 
 	const filteredSecrets =
 		password && guestPasswords.includes(password) ? (
@@ -47,7 +47,7 @@ const Secrets = () => {
 					.filter((key) => key.startsWith(password))
 					.map((key) => (
 						<Grid item key={key} sm={1}>
-							<Secret text={secrets[key]} />
+							<Secret titleText={secretsTitles[key]} text={secrets[key]} />
 						</Grid>
 					))}
 			</Grid>

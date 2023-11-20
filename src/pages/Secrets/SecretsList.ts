@@ -43,3 +43,28 @@ export const secrets: Record<string, string> = {
 		'Pretend you are actually a sister of the hosts (half sister is fine). The hosts will not corroborate or go against your story. Fool half of the guests or more.',
 	AllEyesOnMeSecondQuest: "Whenever something 'outrageous' happens, fake faint. If somebody catches you, thank them with an autograph.",
 };
+
+export const secretsTitles: Record<string, string> = {
+	TheUnseenBladeIdentity: 'The truth lies in darkness',
+	TheUnseenBladeFirstQuest: 'Secrets kept are weapons wasted',
+	TheUnseenBladeSecondQuest: 'Without a sound',
+	TheUnseenBladeDickInfo: 'Balance is weakness',
+	IfATreeFallsFirstQuest: 'The cold war',
+	IfATreeFallsSecondQuest: 'All roads lead to... quantum physics.',
+	IfATreeFallsDickInfo: 'The boorish nurse',
+	DickGumshoeFirstQuest: 'Hangover',
+	DickGumshoeSecondQuest: 'The precious earrings',
+	TooGlamToGiveADamnFirstQuest: 'Hello? Someone needs a drink over here!',
+	TooGlamToGiveADamnSecondQuest: 'Cheers!',
+	TooGlamToGiveADamnDickInfo: 'One for the books...',
+	ICanDoAllThisThroughHimWhoGivesMeStrengthFirstQuest: 'Purification',
+	ICanDoAllThisThroughHimWhoGivesMeStrengthSecondQuest: 'Prayer is the best medicine',
+	ICanDoAllThisThroughHimWhoGivesMeStrengthDickInfo: 'The sinner',
+	TheMagicFluteFirstQuest: 'The unlikely duet',
+	TheMagicFluteSecondQuest: 'Creative muscles',
+	ThePressIsFreeButLivingIsNotFirstQuest: 'Time for a scoop!',
+	ThePressIsFreeButLivingIsNotSecondQuest: 'Your honor, I object!',
+	ThePressIsFreeButLivingIsNotDickInfo: 'The drunken master',
+	AllEyesOnMeFirstQuest: 'Method acting',
+	AllEyesOnMeSecondQuest: 'Dedication to the craft',
+};
