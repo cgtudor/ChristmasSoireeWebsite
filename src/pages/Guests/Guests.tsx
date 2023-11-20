@@ -12,7 +12,7 @@ import Heidi from './GuestProfiles/Heidi';
 import Olivier from './GuestProfiles/Olivier';
 import Viktor from './GuestProfiles/Viktor';
 
-type GuestNames = 'Olivier' | 'Estelle' | 'Arthur' | 'Catherine' | 'Dick' | 'Father' | 'Finn' | 'Genevieve' | 'Heidi' | 'Viktor';
+type GuestNames = 'Olivier' | 'Estelle' | 'Arthur' | 'Catherine' | 'Father' | 'Finn' | 'Genevieve' | 'Heidi' | 'Dick' | 'Viktor';
 
 const Guests = () => {
 	const guestComponents: Record<GuestNames, JSX.Element> = {
@@ -20,11 +20,11 @@ const Guests = () => {
 		Estelle: <Estelle />,
 		Arthur: <Arthur />,
 		Catherine: <Catherine />,
-		Dick: <Dick />,
 		Father: <Father />,
 		Finn: <Finn />,
 		Genevieve: <Genevieve />,
 		Heidi: <Heidi />,
+		Dick: <Dick />,
 		Viktor: <Viktor />,
 	};
 
