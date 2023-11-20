@@ -34,7 +34,7 @@ const Guests = () => {
 				{Object.values(guestComponents).map((Component, index) => {
 					return (
 						<Grid item xs={12} sm={6} key={index}>
-							<Paper elevation={10} sx={{ p: 2, backgroundColor: '#474747' }}>
+							<Paper elevation={10} sx={{ p: 2, backgroundColor: '#474747', height: '450px', overflow: 'auto' }}>
 								{Component}
 							</Paper>
 						</Grid>

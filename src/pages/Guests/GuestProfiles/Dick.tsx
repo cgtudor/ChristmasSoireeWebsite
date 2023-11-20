@@ -7,7 +7,7 @@ import Title from '~src/components/Title';
 
 const Dick = () => {
 	return (
-		<Grid container spacing={2}>
+		<Grid container spacing={2} alignItems="flex-start">
 			<CharacterPortrait character="Dick" />
 			<Grid item xs={12} sm={8}>
 				<Box p={2}>
