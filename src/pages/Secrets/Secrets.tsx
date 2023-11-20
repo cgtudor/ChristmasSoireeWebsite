@@ -3,12 +3,13 @@ import React, { useState } from 'react';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import TextField from '@mui/material/TextField';
+import Typography from '@mui/material/Typography';
 
 import Secret from '~src/components/Secret';
 
 import { secrets } from './SecretsList';
 
-type GuestNames =
+type GuestPasswords =
 	| 'TheUnseenBlade'
 	| 'AllEyesOnMe'
 	| 'DickGumshoe'
@@ -19,13 +20,13 @@ type GuestNames =
 	| 'IfATreeFalls';
 
 const Secrets = () => {
-	const [selectedGuest, setSelectedGuest] = useState<GuestNames>();
+	const [password, setPassword] = useState<GuestPasswords>();
 
 	const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-		setSelectedGuest(event.target.value as GuestNames);
+		setPassword(event.target.value as GuestPasswords);
 	};
 
-	const guestPasswords: GuestNames[] = [
+	const guestPasswords: GuestPasswords[] = [
 		'TheUnseenBlade',
 		'AllEyesOnMe',
 		'DickGumshoe',
@@ -36,14 +37,14 @@ const Secrets = () => {
 		'IfATreeFalls',
 	];
 
-	const secretsCount = selectedGuest && Object.keys(secrets).filter((key) => key.startsWith(selectedGuest)).length;
+	const secretsCount = password && Object.keys(secrets).filter((key) => key.startsWith(password)).length;
 	const gridColumns = secretsCount;
 
 	const filteredSecrets =
-		selectedGuest && guestPasswords.includes(selectedGuest) ? (
+		password && guestPasswords.includes(password) ? (
 			<Grid container spacing={2} columns={gridColumns} direction="row" wrap="wrap">
 				{Object.keys(secrets)
-					.filter((key) => key.startsWith(selectedGuest))
+					.filter((key) => key.startsWith(password))
 					.map((key) => (
 						<Grid item key={key} sm={1}>
 							<Secret text={secrets[key]} />
@@ -60,7 +61,7 @@ const Secrets = () => {
 						fullWidth
 						label="What is the password?"
 						variant="standard"
-						value={selectedGuest}
+						value={password}
 						onChange={handleInputChange}
 						sx={{
 							'& .MuiInputBase-input': {
@@ -71,10 +72,21 @@ const Secrets = () => {
 						}}
 					/>
 				</Grid>
-				{selectedGuest && guestPasswords.includes(selectedGuest) && (
+				{password && guestPasswords.includes(password) && (
 					<Paper elevation={10} sx={{ p: 2, backgroundColor: '#474747' }}>
 						{filteredSecrets}
 					</Paper>
+				)}
+				{(!password || !guestPasswords.includes(password)) && (
+					<Typography
+						variant="body1"
+						className="gold-text"
+						fontFamily={'Great Vibes, cursive'}
+						fontSize={'4vh'}
+						sx={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}
+					>
+						Whisper a name, unveil the hidden tale.
+					</Typography>
 				)}
 			</Grid>
 		</>
