@@ -5,8 +5,6 @@ import CharacterCard from '~src/components/CharacterCard';
 
 import { guestsList } from './GuestProfiles/GuestsList';
 
-type GuestNames = 'Olivier' | 'Estelle' | 'Arthur' | 'Catherine' | 'Father' | 'Finn' | 'Genevieve' | 'Heidi' | 'Dick' | 'Viktor';
-
 const Guests = () => {
 	return (
 		<>
