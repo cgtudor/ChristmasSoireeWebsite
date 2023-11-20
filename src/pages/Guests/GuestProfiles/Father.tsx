@@ -12,7 +12,7 @@ const Father = () => {
 			<Grid item xs={12} sm={8}>
 				<Box p={2}>
 					<Title text="Father Raphael" />
-					<Typography variant="subtitle2" color={'#f5f5f5'}>
+					<Typography variant="body2" color={'#f5f5f5'} sx={{ lineHeight: 1.5, fontFamily: 'Open Sans, sans-serif' }}>
 						Father Raphael is a priest from the Vatican. He's a close friend of the Croix family and has personally baptised both of
 						the siblings. While generally not of great renown, he is quite loved by the people that know him, although his preaching
 						can grow tiring at times.

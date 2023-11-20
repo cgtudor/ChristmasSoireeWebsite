@@ -12,7 +12,7 @@ const Dante = () => {
 			<Grid item xs={12} sm={8}>
 				<Box p={2}>
 					<Title text="Dante Bellucci" />
-					<Typography variant="subtitle2" color={'#f5f5f5'}>
+					<Typography variant="body2" color={'#f5f5f5'} sx={{ lineHeight: 1.5, fontFamily: 'Open Sans, sans-serif' }}>
 						Dante Bellucci is a man of questionable profession and morals. Being as charitable as possible, he is a loan shark. While
 						his business may seem legal on the surface, he is no stranger to the land of crime. He will use any means necessary to get
 						what he is owed and then some. He's come to know the Croix family as they proved to be a good source of funds for his
