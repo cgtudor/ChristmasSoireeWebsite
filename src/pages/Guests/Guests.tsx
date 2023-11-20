@@ -1,8 +1,5 @@
-import React, { useState } from 'react';
-
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
-import Typography from '@mui/material/Typography';
 
 import Arthur from './GuestProfiles/Arthur';
 import Catherine from './GuestProfiles/Catherine';
@@ -15,19 +12,19 @@ import Heidi from './GuestProfiles/Heidi';
 import Olivier from './GuestProfiles/Olivier';
 import Viktor from './GuestProfiles/Viktor';
 
-type GuestNames = 'Arthur' | 'Catherine' | 'Dick' | 'Estelle' | 'Father' | 'Finn' | 'Genevieve' | 'Heidi' | 'Olivier' | 'Viktor';
+type GuestNames = 'Olivier' | 'Estelle' | 'Arthur' | 'Catherine' | 'Dick' | 'Father' | 'Finn' | 'Genevieve' | 'Heidi' | 'Viktor';
 
 const Guests = () => {
 	const guestComponents: Record<GuestNames, JSX.Element> = {
+		Olivier: <Olivier />,
+		Estelle: <Estelle />,
 		Arthur: <Arthur />,
 		Catherine: <Catherine />,
 		Dick: <Dick />,
-		Estelle: <Estelle />,
 		Father: <Father />,
 		Finn: <Finn />,
 		Genevieve: <Genevieve />,
 		Heidi: <Heidi />,
-		Olivier: <Olivier />,
 		Viktor: <Viktor />,
 	};
 
