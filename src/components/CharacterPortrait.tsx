@@ -1,7 +1,7 @@
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 
-import portraits from '~src/assets/images/GuestPortraits';
+import portraits from '~src/pages/Guests/CharacterPortraits';
 
 interface Portraits {
 	[key: string]: any;
