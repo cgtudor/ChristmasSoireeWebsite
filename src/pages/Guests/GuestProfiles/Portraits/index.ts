@@ -7,13 +7,13 @@ import HeidiPortrait from './HeidiPortrait.png';
 import ViktorPortrait from './ViktorPortrait.png';
 
 const portraits = {
-	Arthur: ArthurPortrait,
-	Dante: DantePortrait,
-	Dick: DickPortrait,
-	Father: FatherPortrait,
-	Genevieve: GenevievePortrait,
-	Heidi: HeidiPortrait,
-	Viktor: ViktorPortrait,
+	'Arthur McDonald': ArthurPortrait,
+	'Dante Bellucci': DantePortrait,
+	"Richard O'Connell": DickPortrait,
+	'Father Raphael': FatherPortrait,
+	'Genevieve Auclair': GenevievePortrait,
+	'Heidi Rosengart': HeidiPortrait,
+	'Viktor Koslov': ViktorPortrait,
 };
 
 export default portraits;
