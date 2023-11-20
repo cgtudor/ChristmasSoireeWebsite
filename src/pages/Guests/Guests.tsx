@@ -2,7 +2,7 @@ import Grid from '@mui/material/Grid';
 
 import CharacterCard from '~src/components/CharacterCard';
 
-import { guestsList } from './GuestProfiles/GuestsList';
+import { guestsList } from './GuestsList';
 
 const Guests = () => {
 	return (
