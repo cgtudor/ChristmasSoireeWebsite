@@ -9,7 +9,7 @@ export const guestsList: GuestsList = [
 	{
 		name: 'Arthur McDonald',
 		description:
-			"Arthur McDonald is a man with little known history. For those knowledgeable enough, he is a hit-man for hire. What he did, who he was or why he's doing it is of little importance, but he's completed a job for the Croix family before. He was employed to [REDACTED] by the father. A splendid job. The invitation to this Christmas party was a surprise, but he's intrigued and willing to bite.",
+			"Arthur McDonald is a man of enigmatic allure, navigating the bustling cityscape with a mysterious air that left both whispers of admiration and speculation in his wake. What he did, who he was or why he's doing it is of little importance, but he was employed by the Croix family before. Whether perched on a barstool, sipping on a clandestine concoction or leaning against the brick walls of an alleyway, Arthur exuded a charisma that drew people into his orbit. The invitation to this Christmas party was a surprise, but he's intrigued and willing to bite.",
 	},
 	{
 		name: 'Dante Bellucci',
