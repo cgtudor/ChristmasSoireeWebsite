@@ -19,7 +19,7 @@ export const guestsList: GuestsList = [
 	{
 		name: 'Father Raphael',
 		description:
-			"Father Raphael is a priest from the Vatican. He's a close friend of the Croix family and has personally baptised both of the siblings. While generally not of great renown, he is quite loved by the people that know him, although his preaching can grow tiring at times.",
+			"Father Raphael is a priest from the Vatican. He's a close friend of the Croix family and has personally baptised both of the siblings. While generally not of great renown, he is quite loved by the people that know him, although his preaching can grow tiring at times. In an era marked by societal shifts, Father Raphael stood as a steadfast beacon of spiritual guidance. The hosts believed that Father Raphael's presence would add an air of moral authority to their event, so they once again invited him this year to participate in their festivities.",
 	},
 	{
 		name: 'Genevieve Auclair',
