@@ -5,6 +5,7 @@ import FatherPortrait from '~src/assets/images/GuestPortraits/FatherPortrait.png
 import FinnPortrait from '~src/assets/images/GuestPortraits/FinnPortrait.png';
 import GenevievePortrait from '~src/assets/images/GuestPortraits/GenevievePortrait.png';
 import HeidiPortrait from '~src/assets/images/GuestPortraits/HeidiPortrait.png';
+import LaCroixPortrait from '~src/assets/images/GuestPortraits/LaCroixPortrait.png';
 import ViktorPortrait from '~src/assets/images/GuestPortraits/ViktorPortrait.png';
 
 const portraits = {
@@ -16,6 +17,7 @@ const portraits = {
 	'Heidi Rosengart': HeidiPortrait,
 	'Viktor Koslov': ViktorPortrait,
 	'Finn Fitzgerald': FinnPortrait,
+	'Your hosts': LaCroixPortrait,
 };
 
 export default portraits;

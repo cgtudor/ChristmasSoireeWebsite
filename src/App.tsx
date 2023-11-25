@@ -8,6 +8,7 @@ import Header from '~sections/Header';
 import Secrets from './pages/Secrets';
 
 function App(): JSX.Element {
+	console.log("Mind your own business. You're not supposed to be here.");
 	return (
 		<div className="maw-[1200px] p-[1rem] mx-[auto] min-h[100vh] d-[flex] fld-[column]">
 			<Header />

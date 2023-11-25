@@ -8,7 +8,6 @@ const Countdown: React.FC<CountdownProps> = ({ targetDate }) => {
 	const calculateTimeLeft = () => {
 		const difference = +targetDate - +new Date();
 
-		console.log(new Date('2023-12-23T18:00'));
 		return {
 			days: Math.floor(difference / (1000 * 60 * 60 * 24)),
 			hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
