@@ -14,22 +14,17 @@ export const guestsList: GuestsList = [
 	{
 		name: 'Arthur McDonald',
 		description:
-			"Arthur McDonald is a man of enigmatic allure, navigating the bustling cityscape with a mysterious air that left both whispers of admiration and speculation in his wake. What he did, who he was or why he's doing it is of little importance, but he was employed by the Croix family before. Whether perched on a barstool, sipping on a clandestine concoction or leaning against the brick walls of an alleyway, Arthur exuded a charisma that drew people into his orbit. The invitation to this Christmas party was a surprise, but he's intrigued and willing to bite.",
-	},
-	{
-		name: 'Dante Bellucci',
-		description:
-			"Dante Bellucci is a man of questionable profession and morals. Being as charitable as possible, he is a loan shark. While his business may seem legal on the surface, he is no stranger to the land of crime. He will use any means necessary to get what he is owed and then some. He's come to know the Croix family as they proved to be a good source of funds for his business. Be it lending or borrowing, they've proved to be valuable and trustworthy clients thus far.",
+			"Arthur McDonald is a man of enigmatic allure, navigating the bustling cityscape with a mysterious air that left both whispers of admiration and speculation in his wake. What he did, who he was or why he's doing it is of little importance, but he was employed by the Croix family before. Whether perched on a barstool, sipping on a clandestine concoction or leaning against the brick walls of an alleyway, Arthur exuded a charisma that drew people into his orbit.",
 	},
 	{
 		name: 'Father Raphael',
 		description:
-			"Father Raphael is a priest from the Vatican. He's a close friend of the Croix family and has personally baptised both of the siblings. While generally not of great renown, he is quite loved by the people that know him, although his preaching can grow tiring at times. In an era marked by societal shifts, Father Raphael stood as a steadfast beacon of spiritual guidance. The hosts believed that Father Raphael's presence would add an air of moral authority to their event, so they once again invited him this year to participate in their festivities.",
+			"Father Raphael is a priest from the Vatican. He's a close friend of the Croix family and has personally baptised both of the siblings. While generally not of great renown, he is quite loved by the people that know him, although his preaching can grow tiring at times. In an era marked by societal shifts, Father Raphael stood as a steadfast beacon of spiritual guidance. The hosts believed that Father Raphael's presence would add an air of spirituality to their event, so they once again invited him this year to participate in their festivities.",
 	},
 	{
 		name: 'Genevieve Auclair',
 		description:
-			'Genevieve Auclair is a distinguished lady from Paris. Old friend of the family, she has always brought a sense of elegance to any room she stepped in, turning the eyes of men and women alike.',
+			'Genevieve Auclair is a distinguished lady from Paris. Old friend of the family, she has always brought a sense of elegance to any room she stepped in, turning the eyes of men and women alike. She is known to be one of the most proeminent socialites in her sphere, almost to the point of being an information broker. However, she would never do something as lowly as trading secrets for money.',
 	},
 	{
 		name: 'Heidi Rosengart',
@@ -39,7 +34,7 @@ export const guestsList: GuestsList = [
 	{
 		name: "Richard O'Connell",
 		description:
-			"Richard O'Connell is a detective of questionable origins. Although he is known for his case solving skills, he is also renowned for his drinking tendencies. A sort of drunken master of detectives he's made a name for himself as a private investigator and he came to know the Croix siblings from a case of earring theft he's solved for Estelle during the last Christmas party. He was now surprisingly invited to the party as a guest, rather than an investigator.",
+			"Richard O'Connell is a tall man with an unkempt beard and an eerie appearance about him. He seems like a true oddball, even in this crowd of eccentrics.",
 	},
 	{
 		name: 'Viktor Koslov',
@@ -49,6 +44,6 @@ export const guestsList: GuestsList = [
 	{
 		name: 'Finn Fitzgerald',
 		description:
-			"Finn Fitzgerald is a journalist from Ireland. Finn's relentless pursuit of hard-hitting stories often lands him in trouble. Yet, just as swiftly as trouble finds him, his undeniable charisma gets him out of it at the earliest convenience. With a knack for uncovering scandals and exposing drama, Finn aspires to establish himself as a proeminent figure in the field of investigative journalism. It is of no wonder that when he was invited to La Croix's Christmas party, he was quick to accept the invite. After all, what better place to find a story than a mansion full of famous people?",
+			'Finn Fitzgerald is a journalist from Ireland. While his relentless pursuit of hard-hitting stories often lands him in trouble, his undeniable charisma gets him out of it at the earliest convenience. With a knack for uncovering scandals and exposing drama, Finn aspires to establish himself as a proeminent figure in the field of investigative journalism. It is of no wonder that when he was invited to a party of the de la Croix family, he was quick to accept. After all, what better place to find a story than a Christmas party thrown by rich socialites?',
 	},
 ];
