@@ -41,4 +41,9 @@ export const guestsList: GuestsList = [
 		description:
 			'Viktor Kozlov is a physicist from the great mother nation. Having published many revolutionary works in the world of physics, he is widely renowned for his logical mind and his ability to solve any problem. He came to know the Croix family through a project he worked on with their father and has been a close friend of the family ever since.',
 	},
+	{
+		name: 'Finn Fitzgerald',
+		description:
+			"Finn Fitzgerald is a journalist from Ireland. Finn's relentless pursuit of hard-hitting stories often lands him in trouble. Yet, just as swiftly as trouble finds him, his undeniable charisma gets him out of it at the earliest convenience. With a knack for uncovering scandals and exposing drama, Finn aspires to establish himself as a proeminent figure in the field of investigative journalism. It is of no wonder that when he was invited to La Croix's Christmas party, he was quick to accept the invite. After all, what better place to find a story than a mansion full of famous people?",
+	},
 ];

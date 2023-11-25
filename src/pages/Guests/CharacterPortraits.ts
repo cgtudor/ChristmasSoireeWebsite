@@ -2,6 +2,7 @@ import ArthurPortrait from '~src/assets/images/GuestPortraits/ArthurPortrait.png
 import DantePortrait from '~src/assets/images/GuestPortraits/DantePortrait.png';
 import DickPortrait from '~src/assets/images/GuestPortraits/DickPortrait.png';
 import FatherPortrait from '~src/assets/images/GuestPortraits/FatherPortrait.png';
+import FinnPortrait from '~src/assets/images/GuestPortraits/FinnPortrait.png';
 import GenevievePortrait from '~src/assets/images/GuestPortraits/GenevievePortrait.png';
 import HeidiPortrait from '~src/assets/images/GuestPortraits/HeidiPortrait.png';
 import ViktorPortrait from '~src/assets/images/GuestPortraits/ViktorPortrait.png';
@@ -14,6 +15,7 @@ const portraits = {
 	'Genevieve Auclair': GenevievePortrait,
 	'Heidi Rosengart': HeidiPortrait,
 	'Viktor Koslov': ViktorPortrait,
+	'Finn Fitzgerald': FinnPortrait,
 };
 
 export default portraits;

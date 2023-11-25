@@ -13,7 +13,7 @@ export const CharacterPortrait = ({ character }: { character: string }) => {
 	return (
 		<Grid item xs={12} sm={4}>
 			<Box sx={{ height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', mt: 2 }}>
-				<img src={portrait} alt="Arthur McDonald" style={{ width: '100%', objectFit: 'cover' }} />
+				<img src={portrait} alt="Character Picture" style={{ width: '100%', objectFit: 'cover' }} />
 			</Box>
 		</Grid>
 	);
