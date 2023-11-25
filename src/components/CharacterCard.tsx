@@ -13,7 +13,7 @@ interface CharacterCardProps {
 
 const CharacterCard: React.FC<CharacterCardProps> = ({ name, description }) => {
 	return (
-		<Paper elevation={10} sx={{ p: 2, backgroundColor: '#474747', height: '450px', overflow: 'auto' }}>
+		<Paper elevation={10} sx={{ p: 2, backgroundColor: '#474747', height: '400px', overflow: 'auto' }}>
 			<Grid container spacing={2} alignItems="flex-start">
 				<CharacterPortrait character={name} />
 				<Grid item xs={12} sm={8}>
