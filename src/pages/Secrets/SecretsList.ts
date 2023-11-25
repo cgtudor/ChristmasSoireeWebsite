@@ -23,7 +23,7 @@ export const secretsList: SecretsList = [
 		password: 'TheUnseenBlade',
 		title: 'Without a sound',
 		secret:
-			"Your next target is Catherine. She knows too much, it's too dangerous to let her live after all. You must slip a vial of poison in her drink or food by the end of the night. The vial will be provided by one of the hosts upon arriving at the party.",
+			"Your next target is Dick. He's been on your case for a while, and although he doesn't seem that competent, in your line of work there's a saying: 'Take no risks'. You must slip a vial of poison in his drink or food by the end of the night. The vial will be provided by one of the hosts upon arriving at the party.",
 	},
 	{
 		password: 'IfATreeFalls',
