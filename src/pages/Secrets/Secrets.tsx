@@ -63,6 +63,7 @@ const Secrets = () => {
 						variant="standard"
 						value={password}
 						onChange={handleInputChange}
+						InputLabelProps={{ style: { color: 'silver', textShadow: '2px 1px 2px black' } }}
 						sx={{
 							'& .MuiInputBase-input': {
 								// Target the input element
