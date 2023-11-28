@@ -16,7 +16,7 @@
 
 @keyframes spin {
 	100% {
-		transform: translateY(25px) translate(5%);
+		transform: translateY(var(--y)) translateX(var(--x));
 	}
 }
 
@@ -60,7 +60,8 @@ body {
 
 .milk,
 .cookies,
-.letter {
+.letter,
+.newspaper {
 	position: absolute;
 	z-index: 2;
 }
@@ -68,13 +69,17 @@ body {
 .frame {
 	position: absolute;
 	top: 10%;
-	z-index: 0;
+	z-index: -1;
 	transform: scale(1.1);
 }
 
 .letter {
-	position: absolute;
 	transform: rotate3d(2, -1, -1, -0.2turn) scale(0.1);
+}
+
+.newspaper {
+	z-index: 0;
+	transform: rotate3d(1, 1, 1, -0.2turn) scale(0.11);
 }
 
 .cookies:hover,
@@ -85,6 +90,17 @@ body {
 .letter:hover {
 	animation: spin 0.8s linear;
 	animation-fill-mode: both;
+	z-index: 3;
+	--y: 25px;
+	--x: 5%;
+}
+
+.newspaper:hover {
+	animation: spin 0.8s linear;
+	animation-fill-mode: both;
+	z-index: 3;
+	--y: -25px;
+	--x: -13%;
 }
 
 button {
@@ -120,6 +136,7 @@ a {
 	font-family: 'Raleway', 'Open Sans', sans-serif;
 	text-align: center;
 	font-size: 46px;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 	background-image: linear-gradient(to right, #462523 0, #cb9b51 22%, #f6e27a 45%, #f6f2c0 50%, #f6e27a 55%, #cb9b51 78%, #462523 100%);
 	background-clip: text;
 	color: transparent;

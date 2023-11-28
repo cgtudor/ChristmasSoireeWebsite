@@ -9,6 +9,7 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 import CookiesImg from '~images/Cookies.svg';
 import FrameImg from '~images/Frame.svg';
 import MilkGlassImg from '~images/Milk.svg';
+import NewspaperImg from '~images/Newspaper.svg';
 import TableImg from '~images/Table.svg';
 import LetterImg from '~images/ar.png';
 import Countdown from '~src/components/Countdown';
@@ -18,6 +19,7 @@ const imageData = [
 	{ src: MilkGlassImg, alt: 'milk', className: 'milk l-[50%] w-[3em]' },
 	{ src: CookiesImg, alt: 'cookies', className: 'cookies l-[55%] w-[3em]' },
 	{ src: LetterImg, alt: 'letter front', className: 'letter b-[3%] r-[5%] w-[700px]' },
+	{ src: NewspaperImg, alt: 'newspaper', className: 'newspaper t-[1%] r-[5%] w-[500px]' },
 	{ src: FrameImg, alt: 'frame', className: 'frame w-[500px]' },
 ];
 
