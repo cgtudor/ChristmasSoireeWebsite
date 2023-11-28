@@ -79,13 +79,7 @@ const Secrets = () => {
 					</Paper>
 				)}
 				{(!password || !guestPasswords.includes(password)) && (
-					<Typography
-						variant="body1"
-						className="gold-text"
-						fontFamily={'Great Vibes, cursive'}
-						fontSize={'4vh'}
-						sx={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}
-					>
+					<Typography variant="body1" className="gold-text" fontFamily={'Great Vibes, cursive'} fontSize={'4vh'}>
 						Whisper a name, unveil the hidden tale.
 					</Typography>
 				)}
