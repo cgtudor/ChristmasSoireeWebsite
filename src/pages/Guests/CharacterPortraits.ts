@@ -16,7 +16,7 @@ const portraits = {
 	'Father Raphael': FatherPortrait,
 	'Genevieve Auclair': GenevievePortrait,
 	'Heidi Rosengart': HeidiPortrait,
-	'Viktor Koslov': ViktorPortrait,
+	'Viktor Kozlov': ViktorPortrait,
 	'Finn Fitzgerald': FinnPortrait,
 	'Your hosts': LaCroixPortrait,
 	'Catherine Miller': CatherinePortrait,
