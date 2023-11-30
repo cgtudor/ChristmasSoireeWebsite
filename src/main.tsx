@@ -14,7 +14,7 @@ import App from './App';
 ReactDOM.createRoot(document.getElementById('root')!).render(
 	<React.StrictMode>
 		<ErrorBoundary FallbackComponent={ErrorFallback}>
-			<BrowserRouter>
+			<BrowserRouter basename="ChristmasSoireeWebsite/">
 				<App />
 			</BrowserRouter>
 		</ErrorBoundary>

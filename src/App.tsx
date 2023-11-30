@@ -15,9 +15,9 @@ function App(): JSX.Element {
 
 			<main className="py-[1.5rem]">
 				<Routes>
-					<Route path="/ChristmasSoireeWebsite/" element={<Home />} />
-					<Route path="/ChristmasSoireeWebsite/guests" element={<Guests />} />
-					<Route path="/ChristmasSoireeWebsite/secrets" element={<Secrets />} />
+					<Route path="" element={<Home />} />
+					<Route path="guests" element={<Guests />} />
+					<Route path="secrets" element={<Secrets />} />
 				</Routes>
 			</main>
 

@@ -53,13 +53,13 @@ const Header = () => {
 				</Link>
 			</Box>
 			<Box sx={{ display: 'flex', justifyContent: 'center', position: 'absolute', left: '50%', transform: 'translateX(-50%)' }}>
-				<Link component={RouterLink} to="/ChristmasSoireeWebsite/" color="inherit" underline="none" sx={navStyle}>
+				<Link component={RouterLink} to="" color="inherit" underline="none" sx={navStyle}>
 					Home
 				</Link>
-				<Link component={RouterLink} to="/ChristmasSoireeWebsite/guests" color="inherit" underline="none" sx={navStyle}>
+				<Link component={RouterLink} to="guests" color="inherit" underline="none" sx={navStyle}>
 					Guests
 				</Link>
-				<Link component={RouterLink} to="/ChristmasSoireeWebsite/secrets" color="inherit" underline="none" sx={navStyle}>
+				<Link component={RouterLink} to="secrets" color="inherit" underline="none" sx={navStyle}>
 					Secrets
 				</Link>
 			</Box>
