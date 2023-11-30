@@ -59,7 +59,7 @@ export const secretsList: SecretsList = [
 		password: 'TooGlamToGiveADamn',
 		title: 'Hello? Someone needs a drink over here!',
 		secret:
-			'Get the hosts (or preferable other guests) to refill your glass five times. The glass must not be empty when you ask for a refill. You must not ask for a refill more than twice per guest.',
+			'Get the hosts (or preferably other guests) to refill your glass five times. The glass must not be empty when you ask for a refill. You must not ask for a refill more than twice per guest.',
 	},
 	{
 		password: 'TooGlamToGiveADamn',
