@@ -18,7 +18,6 @@ const isHttps = process.env.HTTPS ?? false;
 // https://vitejs.dev/config/
 export default defineConfig((config: ConfigEnv) => {
 	return {
-		base: '/ChristmasSoireeWebsite/',
 		plugins: [
 			react({
 				// Removes React Devtools in production build
