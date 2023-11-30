@@ -64,7 +64,7 @@ const Home = () => {
 			<Grid className="party-cards" container spacing={3} style={{ marginTop: isSmallScreen ? '45%' : '15%' }}>
 				{cards.map((card, index) => (
 					<Grid item key={index} xs={12} sm={6} md={4}>
-						<Card style={{ border: '1px solid #cb9b51', backgroundColor: '#474747', height: 350 }}>
+						<Card style={{ border: '1px solid #cb9b51', backgroundColor: '#474747', height: 370, overflow: 'auto' }}>
 							<CardMedia component="img" height="140" image={card.imageUrl} alt={card.title} />
 							<CardContent>
 								<Typography

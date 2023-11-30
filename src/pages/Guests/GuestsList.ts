@@ -12,6 +12,11 @@ export const guestsList: GuestsList = [
 			"Olivier and Estelle are the splendid siblings of the stupendously wealthy 'de la Croix' family. They are the children of the late Jean-Claude de la Croix, a renowned businessman who made his fortune in the oil industry. The siblings are renowned for their extravagant parties full of eccentric guests and their lavish lifestyle. They are also known for their generosity, as they often donate to charities and other causes. They are the envy and awe of many, but they have their own secrets and enemies.",
 	},
 	{
+		name: 'Catherine Miller',
+		description:
+			'Catherine Miller is an american actress well known as the lady who never yields to adversity in the cutthroat world of entertainment. In the competitive realm of showbiz, she has to rely upon her non-refutable charm and wit to secure the best roles. Catherine navigates the social scene with the confident grace of a woman ahead of her time. ',
+	},
+	{
 		name: 'Arthur McDonald',
 		description:
 			"Arthur McDonald is a man of enigmatic allure, navigating the bustling cityscape with a mysterious air that left both whispers of admiration and speculation in his wake. What he did, who he was or why he's doing it is of little importance, but he was employed by the Croix family before. Whether perched on a barstool, sipping on a clandestine concoction or leaning against the brick walls of an alleyway, Arthur exuded a charisma that drew people into his orbit.",

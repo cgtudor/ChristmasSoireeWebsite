@@ -1,4 +1,5 @@
 import ArthurPortrait from '~src/assets/images/GuestPortraits/ArthurPortrait.png';
+import CatherinePortrait from '~src/assets/images/GuestPortraits/CatherinePortrait.png';
 import DantePortrait from '~src/assets/images/GuestPortraits/DantePortrait.png';
 import DickPortrait from '~src/assets/images/GuestPortraits/DickPortrait.png';
 import FatherPortrait from '~src/assets/images/GuestPortraits/FatherPortrait.png';
@@ -18,6 +19,7 @@ const portraits = {
 	'Viktor Koslov': ViktorPortrait,
 	'Finn Fitzgerald': FinnPortrait,
 	'Your hosts': LaCroixPortrait,
+	'Catherine Miller': CatherinePortrait,
 };
 
 export default portraits;
