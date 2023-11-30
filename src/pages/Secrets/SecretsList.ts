@@ -11,7 +11,7 @@ export const secretsList: SecretsList = [
 		password: 'TheUnseenBlade',
 		title: 'The truth lies in darkness',
 		secret:
-			"You are a hitman for hire. Your identity is hidden, and for good reason. Your real name is not even Arthur, it's Ivar Zlavovikov. You have completed a job for the Croix family before. You were employed to [REDACTED] by the father. A splendid job.",
+			"You are a hitman for hire. Your identity is hidden, and for good reason. Your real name is not even Arthur, it's Ivar Zlavovikov. You have completed a job for the Croix family before. You were employed to ███████ by the father. A splendid job.",
 	},
 	{
 		password: 'TheUnseenBlade',
