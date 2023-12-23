@@ -103,6 +103,12 @@ export const secretsList: SecretsList = [
 			'Compose short verses about each of the guests as you get to know them. At the end of the party hold a concert in which you sing the song you created.',
 	},
 	{
+		password: 'TheMagicFlute',
+		title: 'The precious earrings',
+		secret:
+			"Someone stole Estelle's earrings during the last party. For some reason, she's asked you to figure out who did it. The current suspects are Olivier, Finn and Genevieve. Find out their alibis and figure out who the culprit is. At the end of the night, the real culprit will reveal themselves.",
+	},
+	{
 		password: 'ThePressIsFreeButLivingIsNot',
 		title: 'Time for a scoop!',
 		secret:
