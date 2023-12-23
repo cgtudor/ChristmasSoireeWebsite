@@ -117,8 +117,7 @@ export const secretsList: SecretsList = [
 	{
 		password: 'ThePressIsFreeButLivingIsNot',
 		title: 'Your honor, I object!',
-		secret:
-			'Frame a guest for stealing Estelle’s earrings. You are one of the suspects. You win if Richard accuses someone else but you.',
+		secret: 'Frame a guest for stealing Estelle’s earrings. You are one of the suspects. You win if Heidi accuses someone else but you.',
 	},
 	{
 		password: 'ThePressIsFreeButLivingIsNot',
