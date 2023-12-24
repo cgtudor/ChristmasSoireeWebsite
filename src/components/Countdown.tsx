@@ -36,11 +36,12 @@ const Countdown: React.FC<CountdownProps> = ({ targetDate }) => {
 				fontSize: '2rem',
 			}}
 		>
-			{Object.entries(timeLeft).map(([unit, value]) => (
+			Merry Christmas, everyone!
+			{/* {Object.entries(timeLeft).map(([unit, value]) => (
 				<span key={unit}>
 					{value} {unit}{' '}
 				</span>
-			))}
+			))} */}
 		</div>
 	);
 };
