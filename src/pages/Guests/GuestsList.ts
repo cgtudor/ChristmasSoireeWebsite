@@ -6,10 +6,20 @@ type Guest = {
 type GuestsList = Guest[];
 
 export const guestsList: GuestsList = [
+	// {
+	// 	name: 'Your hosts',
+	// 	description:
+	// 		"Olivier and Estelle are the splendid siblings of the stupendously wealthy 'de la Croix' family. They are the children of the late Jean-Claude de la Croix, a renowned businessman who made his fortune in the oil industry. The siblings are renowned for their extravagant parties full of eccentric guests and their lavish lifestyle. They are also known for their generosity, as they often donate to charities and other causes. They are the envy and awe of many, but they have their own secrets and enemies.",
+	// },
 	{
-		name: 'Your hosts',
+		name: 'Olivier de la Croix',
 		description:
-			"Olivier and Estelle are the splendid siblings of the stupendously wealthy 'de la Croix' family. They are the children of the late Jean-Claude de la Croix, a renowned businessman who made his fortune in the oil industry. The siblings are renowned for their extravagant parties full of eccentric guests and their lavish lifestyle. They are also known for their generosity, as they often donate to charities and other causes. They are the envy and awe of many, but they have their own secrets and enemies.",
+			"The older of the two siblings, Olivier is a lover of the finer things in life. Soul of the party, he's always the first to arrive and the last to leave (granted most parties are hosted at his family's manor). Loved by many and hated by more, he's one of the most divisive figures in the family, never ashamed to spell out his opinions, no matter how inflammatory they may be. If you can get past his loud mouth, you'll always have a good time.",
+	},
+	{
+		name: 'Estelle de la Croix',
+		description:
+			"The younger sister of the two siblings, Estelle brings out the refinement and love of life out of anything and everything. Loved by many, she is one of the best hosts and friends one could ask for. Ignoring her questionable accessory choices (specifically earrings), her style is undeniable. She's who you want to be around if you want a better life.",
 	},
 	{
 		name: 'Catherine Miller',
