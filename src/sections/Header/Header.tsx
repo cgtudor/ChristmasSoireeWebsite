@@ -27,7 +27,7 @@ const Header = () => {
 	};
 
 	return (
-		<Stack direction={'row'}>
+		<Stack direction={'row'} sx={{ justifyContent: 'center' }}>
 			<IconButton aria-label="open drawer" edge="start" onClick={handleDrawerToggle} sx={{ mr: 2, display: { sm: 'none' } }}>
 				<Menu sx={{ color: '#f5f5f5' }} />
 			</IconButton>
